@@ -1,0 +1,49 @@
+{
+    "sites": [
+        {
+            "key": "金牌影视",
+            "name": "金牌｜本地",
+            "type": 3,
+            "api": "./py/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            }
+        },
+        {
+            "key": "瓜子影视",
+            "name": "瓜子影视",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/瓜子.js"
+        },
+        {
+           "key": "HBO",
+           "name": "🍃HBO┃采集",
+           "type": 3,
+           "api": "./api/drpy2.min.js",                
+           "searchable": 1,
+           "quickSearch": 1,
+            "changeable": 1,
+           "filterable": 1,
+           "ext": "./js/HBO.js"
+        },
+        {
+            "key": "金牌",
+            "name": "金牌｜线上",
+            "type": 3,
+            "api": "https://down.nigx.cn/jin.zzong6599.workers.dev/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            }
+        }
+    ]
+
+}
